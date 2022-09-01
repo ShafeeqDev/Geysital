@@ -10,7 +10,7 @@ export const RootNavigation = () => {
   return (
     <NavigationContainer  initialRouteName="Bsdk">
       <Stack.Navigator>
-        <Stack.Screen name="bsdk" component={Bsdk} />
+        <Stack.Screen name="Hello" component={Bsdk} />
         <Stack.Screen name="chutiya" component={Chutiya} />
       </Stack.Navigator>
     </NavigationContainer>

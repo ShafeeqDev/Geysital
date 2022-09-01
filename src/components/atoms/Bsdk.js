@@ -17,7 +17,7 @@ export const Bsdk = ({navigation}) => {
           alignItems: 'center',
         }}
         onPress={() => navigation.navigate('chutiya')}>
-        <Text>Bsdk</Text>
+        <Text>hello Bsdk</Text>
       </TouchableOpacity>
     </View>
   );
